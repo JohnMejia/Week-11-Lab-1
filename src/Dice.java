@@ -1,16 +1,18 @@
 
 public class Dice {
 
+	private int diceNumber;
+	
 	public int Throw()
 	{
-		int classRandom = 1 + (int) ( Math.random() * (6) );
-		return classRandom;
+		diceNumber = 1 + (int) ( Math.random() * (6) );
+		return diceNumber;
 	}
 	
 	public void Value()
 	{
-		int classRandom = Throw();
-		System.out.println("Dice number is " + classRandom);
+		
+		System.out.println("Dice number is " + diceNumber);
 		
 	}
 
