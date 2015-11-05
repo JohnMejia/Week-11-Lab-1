@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 
 public class Dice {
 
@@ -12,7 +13,7 @@ public class Dice {
 	public void Value()
 	{
 		
-		System.out.println("Dice number is " + diceNumber);
+		JOptionPane.showMessageDialog(null, "Dice number is " + diceNumber);
 		
 	}
 
